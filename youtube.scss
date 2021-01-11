@@ -1,0 +1,99 @@
+$white-color : #ffffff;
+$youtube-red : #e43737;
+
+.logo {
+    width: 100px;
+}
+
+.search-form {
+
+    padding-left: 15%;
+    width: 100%;
+
+    .search-field {
+        display: inline-block;
+        width: 80%;
+    
+        .search-input {
+            border-radius: 2px;
+            width: 100%;
+        }
+    }
+    .search-button {
+        border-radius: 2px;
+        &:focus {
+            background-color: $white-color;
+            outline: none;
+        }
+    }
+}
+
+.thumb-container {
+    margin: 50px 0;
+    padding: 50px 0;
+
+    .box-tab {
+        height: 300px;
+    }
+
+    .thumbnails {
+        padding: 0;
+
+        iframe {
+            border: none;
+            height: 100%;
+            width: 100%;
+        }
+    
+        .caption {
+            padding: 10px 0;
+
+            .limit {
+                text-transform:capitalize;
+            }
+    
+            .channel-name {
+                font-size: 13px;
+                margin: 0;
+            }
+        }
+    }
+
+}
+
+.page-footer {
+    text-align: center;
+
+    .pagination {
+        li.active a {
+            background-color: $youtube-red;
+            border-color: $youtube-red;
+        }
+    }
+
+    .page-link {
+        color: $youtube-red;
+    }
+}
+
+.ajax-loader {
+    background:$white-color;
+    height:100%;
+    left:0px;
+    opacity:0.8;
+    top:0px;
+    width:100%;
+    z-index:1000;
+}
+  
+.ajax-loader img {
+    left:45%;
+    position: relative;
+    top:40%;
+}
+
+@media (max-width: 480px) {
+    #video-tabs.row {
+        padding: 0 35px;
+    }
+}

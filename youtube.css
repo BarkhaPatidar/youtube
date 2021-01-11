@@ -1,0 +1,84 @@
+.logo {
+  width: 100px;
+}
+
+.search-form {
+  padding-left: 15%;
+  width: 100%;
+}
+.search-form .search-field {
+  display: inline-block;
+  width: 80%;
+}
+.search-form .search-field .search-input {
+  border-radius: 2px;
+  width: 100%;
+}
+.search-form .search-button {
+  border-radius: 2px;
+}
+.search-form .search-button:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+
+.thumb-container {
+  margin: 50px 0;
+  padding: 50px 0;
+}
+.thumb-container .box-tab {
+  height: 300px;
+}
+.thumb-container .thumbnails {
+  padding: 0;
+}
+.thumb-container .thumbnails iframe {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.thumb-container .thumbnails .caption {
+  padding: 10px 0;
+}
+.thumb-container .thumbnails .caption .limit {
+  text-transform: capitalize;
+}
+.thumb-container .thumbnails .caption .channel-name {
+  font-size: 13px;
+  margin: 0;
+}
+
+.page-footer {
+  text-align: center;
+}
+.page-footer .pagination li.active a {
+  background-color: #e43737;
+  border-color: #e43737;
+}
+.page-footer .page-link {
+  color: #e43737;
+}
+
+.ajax-loader {
+  background: #ffffff;
+  height: 100%;
+  left: 0px;
+  opacity: 0.8;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.ajax-loader img {
+  left: 45%;
+  position: relative;
+  top: 40%;
+}
+
+@media (max-width: 480px) {
+  #video-tabs.row {
+    padding: 0 35px;
+  }
+}
+
+/*# sourceMappingURL=youtube.css.map */
